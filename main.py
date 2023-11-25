@@ -92,11 +92,7 @@ def run_discord_bot():
             return
         elif client.user.mention in user_message.split():
             await send_message(message, user_message, is_private=False)
-        # elif username == "the_petite_nut":
-        #     await message.channel.send("logan you're gay and likes petite femboys")
-        # elif username == "legacy3393":
-        #     await message.channel.send("tom likes little boys and has them poop on his chest")
-
+        
         print(f'{username} said: {user_message} in {channel}')
 
         # if user_message[0] == "?":
